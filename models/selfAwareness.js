@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const selfAwarenessSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  field1: { type: String, required: true },
+  consciousKnowledge: { type: String, required: true },
   field2: { type: String, required: true },
 });
 
